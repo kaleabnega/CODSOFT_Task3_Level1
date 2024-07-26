@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index1.css">
+</head>
+<body>
+    <div class="calculator_container">
+        <span class="calculator_border">
+
+            <span class="input_area_container">
+                <input type="text" id="display">
+            </span>
+
+            <br/>
+            
+            <span class="buttons">
+                <span class="+_container">
+                    <button onclick="appendToDisplay('+')" class="+">+</button>
+                </span>
+    
+                <span class="-_container">
+                    <button onclick="appendToDisplay('-')" class="-">-</button>
+                </span>
+    
+                <span class="*_container">
+                    <button onclick="appendToDisplay('*')" class="*">*</button>
+                </span>
+    
+                <span class="/_container">
+                    <button onclick="appendToDisplay('/')" class="/">/</button>
+                </span>
+    
+                <span class="1_container">
+                    <button onclick="appendToDisplay('1')" class="1">1</button>
+                </span>
+                
+                <span class="2_container">
+                    <button onclick="appendToDisplay('2')" class="2">2</button>
+                </span>
+    
+                <span class="3_container">
+                    <button onclick="appendToDisplay('3')" class="3">3</button>
+                </span>
+    
+                <span class="clear_container">
+                    <button onclick="clearDisplay('clear')" class="clear">C</button>
+                </span>
+    
+                <span class="4_container">
+                    <button onclick="appendToDisplay('4')" class="4">4</button>
+                </span>
+    
+                <span class="5_container">
+                    <button onclick="appendToDisplay('5')" class="5">5</button>
+                </span>
+    
+                <span class="6_container">
+                    <button onclick="appendToDisplay('6')" class="6">6</button>
+                </span>
+    
+                <span class="._container">
+                    <button onclick="appendToDisplay('.')" class=".">.</button>
+                </span>
+    
+                <span class="7_container">
+                    <button onclick="appendToDisplay('7')" class="7">7</button>
+                </span>
+    
+                <span class="8_container">
+                    <button onclick="appendToDisplay('8')" class="8">8</button>
+                </span>
+    
+                <span class="9_container">
+                    <button onclick="appendToDisplay('9')" class="9">9</button>
+                </span>
+    
+               
+    
+                <span class="0_container">
+                    <button onclick="appendToDisplay('0')" class="0">0</button>
+                </span>
+
+            </span>
+            
+            <span class="=_container">
+                <button onclick="calculateResult('=')" class="equals">=</button>
+            </span>
+
+        </span>
+
+       
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
